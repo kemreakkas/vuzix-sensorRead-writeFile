@@ -187,11 +187,7 @@ public class MainActivity extends ActionMenuActivity implements SensorEventListe
 
             FileOutputStream outputStream = new FileOutputStream(samplexyzFile);
             OutputStreamWriter streamWriter = new OutputStreamWriter(outputStream);
-            streamWriter.append("VUZIX BLADE a ");
-            streamWriter.append("test");
-            streamWriter.append((char) accelx);
-            streamWriter.append((char) accely);
-            streamWriter.append((char) accelz);
+            streamWriter.append("VUZIX BLADE");
 
             streamWriter.close();
 
